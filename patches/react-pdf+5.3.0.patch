@@ -1,0 +1,13 @@
+diff --git a/node_modules/react-pdf/package.json b/node_modules/react-pdf/package.json
+index 631a3fa..c185746 100644
+--- a/node_modules/react-pdf/package.json
++++ b/node_modules/react-pdf/package.json
+@@ -54,7 +54,7 @@
+     "merge-class-names": "^1.4.0",
+     "prop-types": "^15.8.1",
+     "react": "^16.8.0 || ^17.0.0 || ^18.0.0",
+-    "pdfjs-dist": "^2.6.347",
++    "pdfjs-dist": "2.9.359",
+     "react-pdf-js": "^5.1.0"
+   },
+   "peerDependencies": {

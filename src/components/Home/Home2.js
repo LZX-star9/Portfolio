@@ -19,37 +19,37 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+              I’m currently pursuing my MSc in <b className="purple">Data Science</b> at the University of Glasgow, 
+              with a strong passion for backend development and intelligent systems.
               <br />
-              <br />I am fluent in classics like
+              <br />
+              I'm proficient in
               <i>
-                <b className="purple"> C++, Javascript and Go. </b>
+                <b className="purple"> Java, Python, and SQL, </b>
+              </i>
+              and I enjoy building robust systems that combine scalability with clean architecture.
+              <br />
+              <br />
+              My interests lie in designing and developing
+              <i>
+                <b className="purple"> backend services, recommendation systems, </b> and
+                exploring areas like{" "}
+                <b className="purple">distributed computing and real-time data processing</b>.
               </i>
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
+              I’ve worked on full-stack projects such as an
+              <b className="purple"> EV-sharing platform </b> and a
+              <b className="purple"> personalized movie recommender system</b>,
+              utilizing tools and frameworks like
               <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Blockchain.
-                </b>
+                <b className="purple"> Django, Spring Boot, MySQL, Redis, Celery, and WebSocket</b>
               </i>
+              to bring ideas into production.
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
-              <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js and Next.js</b>
-              </i>
+              I’m always excited to learn and collaborate on meaningful projects that blend
+              <b className="purple"> data, software, and impact.</b>
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -67,7 +67,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="https://github.com/LZX-star9"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -77,32 +77,12 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/Soumyajit4419"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiOutlineTwitter />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
+                  href="https://www.linkedin.com/in/zhaoxi-li-6a9a04337/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
                 >
                   <FaLinkedinIn />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.instagram.com/soumyajit4419"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour home-social-icons"
-                >
-                  <AiFillInstagram />
                 </a>
               </li>
             </ul>
