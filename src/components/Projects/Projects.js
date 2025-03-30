@@ -4,6 +4,7 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import evshare from "../../Assets/Projects/evshare.png";
 import secondhand from "../../Assets/Projects/secondhand.png";
+import delivery from "../../Assets/Projects/delivery.png";
 
 function Projects() {
   return (
@@ -35,6 +36,17 @@ function Projects() {
               title="Second-hand Trading Platform"
               description="A Django-based web application for buying and selling second-hand products. Includes user registration, product listings, order management, wishlist, and review system. Built with Django, Bootstrap, and SQLite."
               ghLink="https://github.com/LZX-star9/Second-hand-Trading-Platform"
+              demoLink=""
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={delivery}
+              isBlog={false}
+              title="Delivery Platform"
+              description="A Java-based food delivery platform built with Spring Boot, MyBatis, and Redis. Features include WeChat login, shopping cart, order management, and store status query. Uses a modular Maven structure and separates concerns across controller, service, and data layers."
+              ghLink="https://github.com/LZX-star9/sky-delivery"
               demoLink=""
             />
           </Col>
